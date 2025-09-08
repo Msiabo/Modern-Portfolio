@@ -42,9 +42,9 @@ const projects = [
     title: "React Chat App",
     description:
       "Real-time chat application with authentication, private messaging, online status, and notifications. Built with React, Node.js, Express, MongoDB, and Socket.IO.",
-    image: "/projects/project5.png", // add a screenshot of your chat app here
+    image: "/projects/project5.png", 
     tags: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Vercel"],
-    demoUrl: "react-chat-app-nqg6.vercel.app/", // your deployed chat app
+    demoUrl: "https://react-chat-app-nqg6.vercel.app/", 
   },
 ];
 
