@@ -6,7 +6,7 @@ const projects = [
     title: "Real Estate Website",
     description:
       "FullStack real estate website that uses CRUD. Users can view properties, add/remove favourites, book viewings, etc.",
-    image: "/projects/project1.png", // replace with your screenshot
+    image: "/projects/project1.png",
     tags: ["React", "Node.js", "MongoDB", "Prisma", "Mantine"],
     demoUrl: "https://elite-homes-nu.vercel.app/",
   },
@@ -15,7 +15,7 @@ const projects = [
     title: "Interview Prep Platform",
     description:
       "AI-powered mock interviews with real-time feedback, voice conversations, and personalized questions.",
-    image: "/projects/project2.png", // replace with your screenshot
+    image: "/projects/project2.png",
     tags: ["Next.js", "Clerk", "Vapi", "Tailwind", "Firebase"],
     demoUrl: "https://interview-buddy-teal.vercel.app/",
   },
@@ -24,7 +24,7 @@ const projects = [
     title: "Spotify Clone",
     description:
       "A responsive music streaming web app. Users can browse playlists, play/pause tracks, search songs, and create custom playlists.",
-    image: "/projects/project3.png", // replace with your screenshot
+    image: "/projects/project3.png",
     tags: ["React", "Tailwind"],
     demoUrl: "https://spotify-clone-kappa-orcin.vercel.app/",
   },
@@ -33,9 +33,18 @@ const projects = [
     title: "Bozza Jobs",
     description:
       "A job platform where users browse jobs, upload CVs, track applications. Employers can manage job posts. Integrated with Cloudinary for uploads.",
-    image: "/projects/projectt4.png", // replace with your screenshot
+    image: "/projects/projectt4.png",
     tags: ["React", "Node.js", "Express", "MongoDB", "Cloudinary", "Vercel"],
     demoUrl: "https://bozza-pl5q.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "React Chat App",
+    description:
+      "Real-time chat application with authentication, private messaging, online status, and notifications. Built with React, Node.js, Express, MongoDB, and Socket.IO.",
+    image: "/projects/project5.png", // add a screenshot of your chat app here
+    tags: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Vercel"],
+    demoUrl: "react-chat-app-nqg6.vercel.app/", // your deployed chat app
   },
 ];
 
