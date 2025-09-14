@@ -46,6 +46,15 @@ const projects = [
     tags: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Vercel"],
     demoUrl: "https://react-chat-app-nqg6.vercel.app/", 
   },
+   {
+    id: 6,
+    title: "MERN Expense Tracker",
+    description:
+      "FullStack expense tracker app with authentication, income & expense management, charts, and Cloudinary image uploads. Users can monitor spending, set goals, and download records as Excel.",
+    image: "/projects/project6.png", // make sure you have this image in /public/projects
+    tags: ["React", "Node.js", "Express", "MongoDB", "Cloudinary", "Vercel"],
+    demoUrl: "https://mern-expense-tracker-wheh.vercel.app/", // your deployed frontend link
+  },
 ];
 
 export const ProjectsSection = () => {
