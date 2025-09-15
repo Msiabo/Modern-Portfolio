@@ -33,7 +33,7 @@ const projects = [
     title: "Bozza Jobs",
     description:
       "A job platform where users browse jobs, upload CVs, track applications. Employers can manage job posts. Integrated with Cloudinary for uploads.",
-    image: "/projects/projectt4.png",
+    image: "/projects/project4.png",
     tags: ["React", "Node.js", "Express", "MongoDB", "Cloudinary", "Vercel"],
     demoUrl: "https://bozza-pl5q.vercel.app/",
   },
@@ -46,16 +46,26 @@ const projects = [
     tags: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Vercel"],
     demoUrl: "https://react-chat-app-nqg6.vercel.app/", 
   },
-   {
+  {
     id: 6,
     title: "MERN Expense Tracker",
     description:
       "FullStack expense tracker app with authentication, income & expense management, charts, and Cloudinary image uploads. Users can monitor spending, set goals, and download records as Excel.",
-    image: "/projects/project6.png", // make sure you have this image in /public/projects
+    image: "/projects/project6.png", 
     tags: ["React", "Node.js", "Express", "MongoDB", "Cloudinary", "Vercel"],
-    demoUrl: "https://mern-expense-tracker-wheh.vercel.app/", // your deployed frontend link
+    demoUrl: "https://mern-expense-tracker-wheh.vercel.app/", 
+  },
+  {
+    id: 7,
+    title: "Portfolio Website",
+    description:
+      "My first developer portfolio website showcasing projects, skills, and contact details. Built with a focus on responsive design and smooth animations.",
+    image: "/projects/project7.png", // Add screenshot in /public/projects
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"], // adjust if you used React/Tailwind etc.
+    demoUrl: "https://portfolio-xi-eosin-56.vercel.app/", // update with the correct link
   },
 ];
+
 
 export const ProjectsSection = () => {
   return (
