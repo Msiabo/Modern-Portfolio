@@ -86,10 +86,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium">Phone</h4>
                   <a
-                    href="tel:+27632372880"
+                    href="tel:+27764798501"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    (+27) 63 237 2880
+                    (+27) 76 479 8501
                   </a>
                 </div>
               </div>
@@ -101,7 +101,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium">Location</h4>
                   <span className="text-muted-foreground">
-                    Mbombela, MP, South Africa
+                    Pretoria, GP, South Africa
                   </span>
                 </div>
               </div>

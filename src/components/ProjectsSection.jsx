@@ -32,39 +32,113 @@ const projects = [
     id: 4,
     title: "Bozza Jobs",
     description:
-      "A job platform where users browse jobs, upload CVs, track applications. Employers can manage job posts. Integrated with Cloudinary for uploads.",
+      "A job platform where users browse jobs, upload CVs, track applications. Employers can manage job posts with Cloudinary integration for file uploads.",
     image: "/projects/project4.png",
-    tags: ["React", "Node.js", "Express", "MongoDB", "Cloudinary", "Vercel"],
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Cloudinary",
+      "Vercel",
+    ],
     demoUrl: "https://bozza-pl5q.vercel.app/",
   },
   {
     id: 5,
     title: "React Chat App",
     description:
-      "Real-time chat application with authentication, private messaging, online status, and notifications. Built with React, Node.js, Express, MongoDB, and Socket.IO.",
-    image: "/projects/project5.png", 
-    tags: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Vercel"],
-    demoUrl: "https://react-chat-app-nqg6.vercel.app/", 
+      "Real-time chat application with authentication, private messaging, online status, and notifications.",
+    image: "/projects/project5.png",
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.IO",
+      "Vercel",
+    ],
+    demoUrl: "https://react-chat-app-nqg6.vercel.app/",
   },
   {
     id: 6,
     title: "MERN Expense Tracker",
     description:
-      "FullStack expense tracker app with authentication, income & expense management, charts, and Cloudinary image uploads. Users can monitor spending, set goals, and download records as Excel.",
-    image: "/projects/project6.png", 
-    tags: ["React", "Node.js", "Express", "MongoDB", "Cloudinary", "Vercel"],
-    demoUrl: "https://mern-expense-tracker-wheh.vercel.app/", 
+      "FullStack expense tracker application with authentication, income and expense management, charts, Cloudinary uploads, financial goals, and Excel record downloads.",
+    image: "/projects/project6.png",
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Cloudinary",
+      "Vercel",
+    ],
+    demoUrl: "https://mern-expense-tracker-wheh.vercel.app/",
   },
   {
     id: 7,
     title: "Portfolio Website",
     description:
-      "My first developer portfolio website showcasing projects, skills, and contact details. Built with a focus on responsive design and smooth animations.",
-    image: "/projects/project7.png", // Add screenshot in /public/projects
-    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"], // adjust if you used React/Tailwind etc.
-    demoUrl: "https://portfolio-xi-eosin-56.vercel.app/", // update with the correct link
+      "My first developer portfolio website showcasing projects, skills, and contact details with a focus on responsive design and smooth animations.",
+    image: "/projects/project7.png",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    demoUrl: "https://portfolio-xi-eosin-56.vercel.app/",
+  },
+
+  // ==========================================
+  // NEW PROJECTS
+  // ==========================================
+
+  {
+    id: 8,
+    title: "FarmView Guest House",
+    description:
+      "A full-stack hospitality management and guest booking platform for FarmView Guest House. The system includes online accommodation and venue bookings, conference and event services, an admin dashboard, booking management, guest information, rooms, halls, gallery management, and payment tracking.",
+    image: "/projects/project8.png",
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT",
+    ],
+    demoUrl: "https://farm-view-ddi1.vercel.app/",
+  },
+
+  {
+    id: 9,
+    title: "Tshego's Nail Salon",
+    description:
+      "A modern and responsive nail salon website designed to showcase nail services, pricing, gallery work, and business information while giving customers an easy way to explore and book salon services.",
+    image: "/projects/project9.png",
+    tags: [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Responsive Design",
+    ],
+    demoUrl: "https://tshego-flax.vercel.app/",
+  },
+
+  {
+    id: 10,
+    title: "The Craftsman Arts",
+    description:
+      "A creative business website designed to showcase artwork, handcrafted products, artistic services, and a visual gallery. The platform focuses on presenting the brand, highlighting creative work, and creating a professional online presence.",
+    image: "/projects/project10.png",
+    tags: [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Responsive Design",
+    ],
+    demoUrl: "https://the-craftman-arts-xi.vercel.app/",
   },
 ];
+
+export default projects;
 
 
 export const ProjectsSection = () => {
