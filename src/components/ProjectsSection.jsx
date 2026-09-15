@@ -136,8 +136,23 @@ const projects = [
     ],
     demoUrl: "https://the-craftman-arts-xi.vercel.app/",
   },
-];
 
+  {
+    id: 11,
+    title: "ADHOPE",
+    description:
+      "A modern and responsive nonprofit organization website for African Diaspora Hope. The website presents the organization's mission, programs, community impact, stories, partners, and contact information through a professional single-page design focused on accessibility, visual storytelling, and community engagement.",
+    image: "/projects/adhope.png",
+    tags: [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "React Icons",
+      "Responsive Design",
+    ],
+    demoUrl: "https://ad-hope.vercel.app/",
+  },
+];
 export default projects;
 
 
